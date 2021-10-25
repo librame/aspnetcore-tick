@@ -1,0 +1,22 @@
+﻿@model IApplicationContext
+@{
+    var nav = Model.CurrentProject.Navigation;
+}
+
+@if (nav.ManageLayout.Sidebar.IsNotEmpty())
+{
+    <ul class="nav">
+    @foreach (var descr in nav.ManageLayout.Sidebar)
+    {
+        if (descr.Visibility)
+        {
+            <li class="nav-item @descr.FormatActiveCssClassNameOrEmptyString(ViewContext)">
+                <a id="@descr.Id" href="@descr.GenerateLink(Url)" title="@descr.GetLocalizedText()">
+                    <i class="@descr.Icon"></i>
+                    <p>@descr.GetLocalizedHtmlText()</p>
+                </a>
+            </li>
+        }
+    }
+    </ul>
+}

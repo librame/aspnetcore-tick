@@ -1,0 +1,24 @@
+﻿@model IApplicationContext
+@{
+    var nav = Model.CurrentProject.Navigation;
+}
+
+@if (nav.ManageLayout.Footer.IsNotEmpty())
+{
+    <nav class="pull-left">
+        <ul class="nav">
+            @foreach (var descr in nav.ManageLayout.Footer)
+            {
+                <li class="nav-item">
+                    <a class="nav-link" href="@descr.GenerateLink(Url)" title="@descr.GetLocalizedText()" @descr.FormatTargetPairOrEmptyString()>
+                        @descr.GetLocalizedHtmlText()
+                    </a>
+                </li>
+            }
+        </ul>
+    </nav>
+}
+
+<div class="copyright ml-auto">
+    @Html.Raw(Model.Copyright.GetHtmlCode(displayMiniInfo: true))
+</div>

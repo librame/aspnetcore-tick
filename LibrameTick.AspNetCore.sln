@@ -21,35 +21,35 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore.Abstractions", "src\LibrameTick.AspNetCore.Abstractions\LibrameTick.AspNetCore.Abstractions.csproj", "{167E45B6-82A2-4366-BA58-233C810B73E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore.Abstractions", "src\LibrameTick.AspNetCore.Abstractions\LibrameTick.AspNetCore.Abstractions.csproj", "{167E45B6-82A2-4366-BA58-233C810B73E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore", "src\LibrameTick.AspNetCore\LibrameTick.AspNetCore.csproj", "{DD9985F8-45F8-48A8-82AF-0558025274EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore", "src\LibrameTick.AspNetCore\LibrameTick.AspNetCore.csproj", "{DD9985F8-45F8-48A8-82AF-0558025274EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore.Themepacks.Simple", "src\LibrameTick.AspNetCore.Themepacks.Simple\LibrameTick.AspNetCore.Themepacks.Simple.csproj", "{3379957D-2DF4-4D62-9D0D-671487CE8028}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore.Themepack.Simple", "src\LibrameTick.AspNetCore.Themepack.Simple\LibrameTick.AspNetCore.Themepack.Simple.csproj", "{3379957D-2DF4-4D62-9D0D-671487CE8028}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore.Identity.Abstractions", "src\LibrameTick.AspNetCore.Identity.Abstractions\LibrameTick.AspNetCore.Identity.Abstractions.csproj", "{6CD949FA-A73B-4449-ABD0-01734534495D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore.Identity.Abstractions", "src\LibrameTick.AspNetCore.Identity.Abstractions\LibrameTick.AspNetCore.Identity.Abstractions.csproj", "{6CD949FA-A73B-4449-ABD0-01734534495D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore.Identity.EntityFrameworkCore", "src\LibrameTick.AspNetCore.Identity.EntityFrameworkCore\LibrameTick.AspNetCore.Identity.EntityFrameworkCore.csproj", "{DAB48D9B-6B97-42AA-A4F0-5882A578D083}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore.Identity.EntityFrameworkCore", "src\LibrameTick.AspNetCore.Identity.EntityFrameworkCore\LibrameTick.AspNetCore.Identity.EntityFrameworkCore.csproj", "{DAB48D9B-6B97-42AA-A4F0-5882A578D083}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore.Identity", "src\LibrameTick.AspNetCore.Identity\LibrameTick.AspNetCore.Identity.csproj", "{65E50F95-87E8-4EDE-8C67-6298E579469A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore.Identity", "src\LibrameTick.AspNetCore.Identity\LibrameTick.AspNetCore.Identity.csproj", "{65E50F95-87E8-4EDE-8C67-6298E579469A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore.Identity.Mvc", "src\LibrameTick.AspNetCore.Identity.Mvc\LibrameTick.AspNetCore.Identity.Mvc.csproj", "{3EC12A08-2192-4DB9-BD03-ACC126EE4AF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore.Identity.Mvc", "src\LibrameTick.AspNetCore.Identity.Mvc\LibrameTick.AspNetCore.Identity.Mvc.csproj", "{3EC12A08-2192-4DB9-BD03-ACC126EE4AF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore.IdentityServer.Abstractions", "src\LibrameTick.AspNetCore.IdentityServer.Abstractions\LibrameTick.AspNetCore.IdentityServer.Abstractions.csproj", "{545CE5FF-4325-4713-B5D4-3D8D93C8D138}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore.IdentityServer.Abstractions", "src\LibrameTick.AspNetCore.IdentityServer.Abstractions\LibrameTick.AspNetCore.IdentityServer.Abstractions.csproj", "{545CE5FF-4325-4713-B5D4-3D8D93C8D138}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore.IdentityServer.EntityFrameworkCore", "src\LibrameTick.AspNetCore.IdentityServer.EntityFrameworkCore\LibrameTick.AspNetCore.IdentityServer.EntityFrameworkCore.csproj", "{B3071B47-BCC9-41DF-8E3E-2B275D182C98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore.IdentityServer.EntityFrameworkCore", "src\LibrameTick.AspNetCore.IdentityServer.EntityFrameworkCore\LibrameTick.AspNetCore.IdentityServer.EntityFrameworkCore.csproj", "{B3071B47-BCC9-41DF-8E3E-2B275D182C98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore.IdentityServer", "src\LibrameTick.AspNetCore.IdentityServer\LibrameTick.AspNetCore.IdentityServer.csproj", "{6BBF0AFE-650D-4124-8F2E-E8E00B3200C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore.IdentityServer", "src\LibrameTick.AspNetCore.IdentityServer\LibrameTick.AspNetCore.IdentityServer.csproj", "{6BBF0AFE-650D-4124-8F2E-E8E00B3200C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore.IdentityServer.Mvc", "src\LibrameTick.AspNetCore.IdentityServer.Mvc\LibrameTick.AspNetCore.IdentityServer.Mvc.csproj", "{D8EBA7EB-0665-41CE-86B5-4179ECA88C7E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore.IdentityServer.Mvc", "src\LibrameTick.AspNetCore.IdentityServer.Mvc\LibrameTick.AspNetCore.IdentityServer.Mvc.csproj", "{D8EBA7EB-0665-41CE-86B5-4179ECA88C7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExample.Identity.Mvc", "examples\WebExample.Identity.Mvc\WebExample.Identity.Mvc.csproj", "{F4E0C36B-D96D-4123-B717-B1320B28D622}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebExample.Identity.Mvc", "examples\WebExample.Identity.Mvc\WebExample.Identity.Mvc.csproj", "{F4E0C36B-D96D-4123-B717-B1320B28D622}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebExample.IdentityServer.Mvc", "examples\WebExample.IdentityServer.Mvc\WebExample.IdentityServer.Mvc.csproj", "{BA2E028D-E780-43DE-A031-C8FBF1525418}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebExample.IdentityServer.Mvc", "examples\WebExample.IdentityServer.Mvc\WebExample.IdentityServer.Mvc.csproj", "{BA2E028D-E780-43DE-A031-C8FBF1525418}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore.Identity.EntityFrameworkCore.Tests", "test\LibrameTick.AspNetCore.Identity.EntityFrameworkCore.Tests\LibrameTick.AspNetCore.Identity.EntityFrameworkCore.Tests.csproj", "{97E1E846-AB17-4B5C-8ECF-1F157491057E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore.Identity.EntityFrameworkCore.Tests", "test\LibrameTick.AspNetCore.Identity.EntityFrameworkCore.Tests\LibrameTick.AspNetCore.Identity.EntityFrameworkCore.Tests.csproj", "{97E1E846-AB17-4B5C-8ECF-1F157491057E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibrameTick.AspNetCore.IdentityServer.EntityFrameworkCore.Tests", "test\LibrameTick.AspNetCore.IdentityServer.EntityFrameworkCore.Tests\LibrameTick.AspNetCore.IdentityServer.EntityFrameworkCore.Tests.csproj", "{3612F1C8-0FCE-4C60-B28A-7B6C8BE04E44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibrameTick.AspNetCore.IdentityServer.EntityFrameworkCore.Tests", "test\LibrameTick.AspNetCore.IdentityServer.EntityFrameworkCore.Tests\LibrameTick.AspNetCore.IdentityServer.EntityFrameworkCore.Tests.csproj", "{3612F1C8-0FCE-4C60-B28A-7B6C8BE04E44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
