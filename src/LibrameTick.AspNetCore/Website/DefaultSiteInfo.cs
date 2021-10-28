@@ -16,9 +16,6 @@ namespace Librame.AspNetCore;
 
 internal class DefaultSiteInfo : AbstractLibrameSiteInfo
 {
-    public const string DefaultProjectName = "default";
-
-
     public DefaultSiteInfo(IServiceProvider services)
         : base(services)
     {
@@ -26,7 +23,7 @@ internal class DefaultSiteInfo : AbstractLibrameSiteInfo
 
 
     public override string Name
-        => DefaultProjectName;
+        => AbstractIsolatableArea.DefaultAreaName;
 
     public override IStringLocalizer? Localizer
         => Services.GetRequiredService<IStringLocalizer<DefaultSiteInfoResource>>();

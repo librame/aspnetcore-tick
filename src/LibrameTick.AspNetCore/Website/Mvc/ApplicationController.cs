@@ -63,7 +63,7 @@ namespace Librame.AspNetCore.Web.Applications
         protected virtual async Task<IActionResult> VerifyLoginUserActionResult(Func<TUser, IActionResult> actionResultFactory)
         {
             (TUser user, IActionResult result) = await GetLoginUserAsync().ConfigureAwait();
-
+            Url.RouteUrl((object)values);
             if (result.IsNotNull())
                 return result;
 

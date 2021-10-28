@@ -44,7 +44,7 @@ namespace Librame.AspNetCore.Web.Projects
         private static IWebBuilder AddGenericControllersCore(this IWebBuilder builder)
         {
             var replaceAssembly = typeof(ApplicationPartManager).Assembly;
-
+            
             // 重置 MVC 默认应用模型提供程序
             var oldDefaultApplicationModelProviderType = replaceAssembly
                 .GetType("Microsoft.AspNetCore.Mvc.ApplicationModels.DefaultApplicationModelProvider");

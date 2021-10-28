@@ -57,4 +57,21 @@ public abstract class AbstractLinker : AbstractIsolatableArea, ILinker
     /// 片段。
     /// </summary>
     public string? Fragment { get; protected set; }
+
+
+    /// <summary>
+    /// 生成链接。
+    /// </summary>
+    /// <param name="helper">给定的 <see cref="IUrlHelper"/>。</param>
+    /// <returns>返回链接字符串。</returns>
+    public abstract string? GenerateLink(IUrlHelper helper);
+
+
+    /// <summary>
+    /// 转换为字符串。
+    /// </summary>
+    /// <returns>返回模拟链接字符串。</returns>
+    public override string ToString()
+        => $"{nameof(Protocol)}={Protocol};{nameof(Host)}={Host};{nameof(Fragment)}={Fragment};{base.ToString()}";
+
 }
